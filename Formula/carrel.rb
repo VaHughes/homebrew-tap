@@ -1,25 +1,25 @@
 class Carrel < Formula
   desc "A quiet place to read your markdown."
   homepage "https://github.com/VaHughes/carrel"
-  version "2026.9.1"
+  version "2026.9.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/VaHughes/carrel/releases/download/v2026.9.1/carrel-aarch64-apple-darwin.tar.xz"
-      sha256 "dacd37c8405da6557ccb4a25d61f3d2f1de15a4adbdcdf19a99ac8211ae76769"
+      url "https://github.com/VaHughes/carrel/releases/download/v2026.9.3/carrel-aarch64-apple-darwin.tar.xz"
+      sha256 "93f50a56eb66cb9681685636bf64008d16d56495bb87b028cc737c2af21358eb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/VaHughes/carrel/releases/download/v2026.9.1/carrel-x86_64-apple-darwin.tar.xz"
-      sha256 "0a7f0833ae92dafde5181581b7b2d5dc3dc1a73123f1a97000d9f78435124916"
+      url "https://github.com/VaHughes/carrel/releases/download/v2026.9.3/carrel-x86_64-apple-darwin.tar.xz"
+      sha256 "d06f4c900fa2a44645fa5491521c1bc55c74eb35dd42339db4ff73605d74f457"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/VaHughes/carrel/releases/download/v2026.9.1/carrel-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d0d2e30da5b5b2094423f22f394d82a44072e80ba54da88cac6e65cdc3ff5ad4"
+      url "https://github.com/VaHughes/carrel/releases/download/v2026.9.3/carrel-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "58708e05350b4f4a52f9f14e5dfc834e850ec3054ad93b118f6449743cee056a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/VaHughes/carrel/releases/download/v2026.9.1/carrel-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d502dd062dc978b6a8f15f5bf08d7755ba5974b72ed56ca8add5c47231c7b241"
+      url "https://github.com/VaHughes/carrel/releases/download/v2026.9.3/carrel-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1d95e55b0111978c7693a8b1b9fec73f4d80ae87654a0db72caaa8d2b3ebe7d1"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
