@@ -1,25 +1,25 @@
 class Carrel < Formula
   desc "A quiet place to read your markdown."
   homepage "https://github.com/VaHughes/carrel"
-  version "2026.10.21"
+  version "2026.11.24"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/VaHughes/carrel/releases/download/v2026.10.21/carrel-aarch64-apple-darwin.tar.xz"
-      sha256 "77c6e3b67ff9ede1fc6572604f6ad5f31b28eaed87c850462b2049acfeac6f6e"
+      url "https://github.com/VaHughes/carrel/releases/download/v2026.11.24/carrel-aarch64-apple-darwin.tar.xz"
+      sha256 "afe6c65fdbc9a98e0b75d785ede0bd2ab0f6bc2a329aea989e0a6615e5883991"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/VaHughes/carrel/releases/download/v2026.10.21/carrel-x86_64-apple-darwin.tar.xz"
-      sha256 "a1c87a44d85cf23792e220cc75502076ddb5a9cabcaa18373300bbe3c42514a4"
+      url "https://github.com/VaHughes/carrel/releases/download/v2026.11.24/carrel-x86_64-apple-darwin.tar.xz"
+      sha256 "377a3e4b5d6b3ee7b9bd9282d7a38bf0da8844a5a426fb10c368ff99c39041a1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/VaHughes/carrel/releases/download/v2026.10.21/carrel-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "829848f0f3e68b0f537e5e12357a76209d957e1c4808df5a555064e7a018f64b"
+      url "https://github.com/VaHughes/carrel/releases/download/v2026.11.24/carrel-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "191fbeaedb8dab0ac6b2c8c927c19ca0bf0bd07f1ece31041e88821eb048e60a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/VaHughes/carrel/releases/download/v2026.10.21/carrel-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f50f2a151dbc7077114adf922a4b83045fbba6f20412509c330aba4488a94698"
+      url "https://github.com/VaHughes/carrel/releases/download/v2026.11.24/carrel-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "293a353a670e191ed9a5e869f9e2745c52513b9afd27e0dc72709553bc833064"
     end
   end
   license all_of: [{ any_of: ["MIT", "Apache-2.0"] }, "MIT", "BSD-3-Clause", "FSFAP-no-warranty-disclaimer", "Knuth-CTAN"]
